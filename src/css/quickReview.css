@@ -1,0 +1,59 @@
+.quick-review {
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+
+    width: 33.5%;
+}
+
+.quick-review__content {
+    display: flex;
+    flex-direction: column;
+
+    width: 32%;
+    padding-right: 6.78rem;
+}
+
+.quick-review__header {
+    font-size: 1.21rem;
+    font-weight: 400;
+    font-family: 'Open Sans';
+
+    margin-bottom: 1.43rem;
+}
+
+.quick-review__button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    height: 40px;
+    width: 100%;
+    margin-bottom: 1.43rem;
+
+    background: #FFFFFF;
+    border-radius: 6px;
+}
+
+.quick-review__button:hover {
+    cursor: pointer;
+    opacity: .9;
+}
+
+.quick-review__button img {
+    margin: 0 0.71rem 0 1.71rem;
+}
+
+.quick-review__button p {
+    color: #003048;
+
+    font-size: 1.07rem;
+    font-weight: 600;
+    font-family: 'Open Sans';
+}
+
+@media screen and (max-width: 1350px) {
+    .quick-review {
+        display: none;
+    }
+}

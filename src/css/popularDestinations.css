@@ -1,0 +1,121 @@
+.popular-destinations__header {
+    color: #0B5A88;
+
+    font-size: 1.57rem;
+    font-weight: 600;
+    font-family: 'Open Sans';
+
+    margin-bottom: 5px;
+}
+
+.popular-destinations__description {
+    color: #313131;
+
+    font-size: 1.14rem;
+    font-weight: 400;
+    font-family: 'Open Sans';
+}
+
+.popular-destinations__container {
+    display: flex;
+    flex-direction: row;
+}
+
+.popular-destinations__content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    width: 70%;
+
+    margin-bottom: 2.32rem;
+}
+
+.popular-destinations__item {
+    flex: 1;
+    max-width: 205px;
+
+    margin-top: 2.32rem;
+}
+
+.popular-destinations__item-img {
+    border-radius: 10px;
+    -webkit-box-shadow: 0 10px 17px -9px rgba(0,0,0,.37);
+    -moz-box-shadow: 0 10px 17px -9px rgba(0,0,0,.37);
+    box-shadow: 0 10px 17px -9px rgba(0,0,0,.37);
+
+    margin-bottom: 20px;
+}
+
+.popular-destinations__item-location {
+    color: #313131;
+
+    font-size: 1.21rem;
+    font-weight: 600;
+    font-family: 'Open Sans';
+}
+
+.popular-destinations__item__beaches-count {
+    color: #0B6E7E;
+
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Segoe UI';
+
+    margin: 5px 0 11px 0;
+}
+
+.popular-destinations__item-description {
+    color: #000000;
+
+    font-size: 1.07rem;
+    font-weight: 400;
+    font-family: 'Segoe UI';
+
+    padding-right: 20px;
+}
+
+.popular-destinations__ad-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: calc(30% - 4.7rem);
+
+    margin: 2.32rem 0 11.1rem 4.7rem;
+
+    background: #F9F5F5;
+}
+
+.popular-destinations__ad-block h3 {
+    color: #676767;
+
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Segoe UI';
+}
+
+.popular-destinations__button {
+    display: inline-block;
+    color: #0B5A88;
+
+    font-size: 1.14rem;
+    font-weight: 600;
+    font-family: 'Open Sans';
+
+    padding: 0.86rem 1rem;
+
+    border: 1px solid #0B5A88;
+    border-radius: 6px;
+
+    transition: all 0.2s;
+}
+
+.popular-destinations__button:hover {
+    cursor: pointer;
+    background: #0B5A88;
+    color: #ffffff;
+
+    transition: all 0.2s;
+}

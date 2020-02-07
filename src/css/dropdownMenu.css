@@ -1,0 +1,58 @@
+.dropdown-menu {
+    position: relative;
+
+    margin-right: 2.42rem;
+}
+
+.dropdown-menu_button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dropdown-menu_button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dropdown-menu_button-text {
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Segoe UI';
+
+    margin: 0 5px 0 7px;
+}
+
+.dropdown-menu_icon-user {
+    height: 22px;
+}
+
+.dropdown-menu_list {
+    position: absolute;
+    top: 1.7rem;
+
+    width: 100%;
+
+    background: #ffffff;
+    list-style: none;
+}
+
+.dropdown-menu_list li {
+    color: #000000;
+
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Segoe UI';
+
+    padding: 0.5rem;
+}
+
+.dropdown-menu_list li:hover {
+    cursor: pointer;
+    background: #e3e3e3;
+}
+
+.dropdown-menu_button:hover, .dropdown-menu_list li:hover {
+    cursor: pointer;
+}

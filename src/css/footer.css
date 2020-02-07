@@ -1,0 +1,42 @@
+footer {
+    background: #EFEEEE;
+}
+
+.footer__container {
+    display: flex;
+    flex-direction: row;
+
+    margin: 0 auto;
+    padding: 5.32rem 0;
+
+    width: 70%;
+}
+
+.footer__content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer__content-logo {
+    margin-right: 10px;
+}
+
+.footer__content-info {
+    color: #313131;
+
+    font-size: 0.9rem;
+    font-weight: 400;
+    font-family: 'Open Sans';
+}
+
+.footer__navigation-link {
+    color: #313131;
+
+    line-height: 30px;
+    font-size: 0.9rem;
+    font-weight: 400;
+    font-family: 'Open Sans';
+
+    margin-left: 1.28rem;
+}

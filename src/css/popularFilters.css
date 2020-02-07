@@ -1,0 +1,51 @@
+.popular-filters {
+    margin-bottom: 5.42rem;
+}
+
+.popular-filters__header {
+    color: #0B5A88;
+
+    font-size: 1.57rem;
+    font-weight: 600;
+    font-family: 'Open Sans';
+
+    margin-bottom: 5px;
+}
+
+.popular-filters__description {
+    color: #313131;
+
+    font-size: 1.14rem;
+    font-weight: 400;
+    font-family: 'Open Sans';
+}
+
+.popular-filters__content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    margin-top: 2.32rem;
+}
+
+.popular-filters__item {
+    max-width: 130px;
+}
+
+.popular-filters__item img {
+    border-radius: 9px;
+    -webkit-box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.24);
+    -moz-box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.24);
+    box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.24);
+
+    margin-bottom: 0.9rem;
+}
+
+.popular-filters__item p {
+    color: #000000;
+
+    font-size: 1.07rem;
+    font-weight: 400;
+    font-family: 'Open Sans';
+}
