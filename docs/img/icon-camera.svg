@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19" height="17" viewBox="0 0 19 17">
+  <g id="Group_327" data-name="Group 327" transform="translate(-224 -841)">
+    <g id="Rectangle_43" data-name="Rectangle 43" transform="translate(224 841)" fill="#fff" stroke="#3580a7" stroke-width="1.5">
+      <rect width="19" height="17" rx="3" stroke="none"/>
+      <rect x="0.75" y="0.75" width="17.5" height="15.5" rx="2.25" fill="none"/>
+    </g>
+    <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(227 845.667)" fill="#fff" stroke="#3580a7" stroke-width="1.5">
+      <circle cx="5" cy="5" r="5" stroke="none"/>
+      <circle cx="5" cy="5" r="4.25" fill="none"/>
+    </g>
+    <g id="Rectangle_44" data-name="Rectangle 44" transform="translate(233 843)" fill="#fff" stroke="#3580a7" stroke-width="1.5">
+      <rect width="8" height="3" rx="1" stroke="none"/>
+      <rect x="0.75" y="0.75" width="6.5" height="1.5" rx="0.25" fill="none"/>
+    </g>
+  </g>
+</svg>
